@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     font-size: 20px;
     /* tamaño de la letra */
@@ -43,7 +48,70 @@ body {
     padding: 20px;
 }
 
+.header h1 {
+    text-align: left;
+}
+
 .menu {
     background: #ccc;
-    padding: 15px;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    /* el estilo por defecto no lo quiero */
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion {
+    margin: 20px;
+    width: 60%;
+    float: left;
+    /* flotar */
+}
+
+.columna {
+    width: 30%;
+    float: left;
+    margin: 20px 0px;
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+.pie {
+    clear: both;
+    /* elimina todo lo sobrante */
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+}
+
+.imagen {
+    width: 80px;
+    display: block;
+    margin: auto;
+}
+
+article{
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+time {
+    color: #999;
 }
