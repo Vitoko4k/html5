@@ -1,0 +1,49 @@
+h1 {
+    font-size: 20px;
+    /* tamaño de la letra */
+    font-family: sans-serif;
+    /* cambiar fuente de la letra */
+    font-weight: bold;
+    /* peso de la fuente */
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    /* border: 1px solid black; */
+    /* borde de 1px de ancho solido y de color negro */
+    display: block;
+    /* todos los elementos estan en bloques uno abajo del otro */
+}
+
+body {
+    text-align: center;
+    /* alineacion de los textos */
+}
+
+.agrupar {
+    width: 960px;
+    /* ancho */
+    /* background: green;
+    color del bloque  */
+    border: 1px solid black;
+    margin: 15px auto;
+    /* margen del bloque*/
+    /* padding: 40px;
+    relleno al bloque */
+}
+
+.header {
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.menu {
+    background: #ccc;
+    padding: 15px;
+}
